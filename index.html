@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Kalkulator Sederhana</title>
+        <h1 class="display-9">Nama : Asri Putri Utami</h1>
+        <h1 class="display-9">NIM  : 21158686</h1>
+        <h1 class="display-9">PRODI : TEKNIK INFORMATIKA</h1>
+        <h1 class="display-9">Jawaban Soal UAS RPL</h1>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url(image.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <h1>System aplikasi Kalkulator Sederhana</h1>
+        <form id="calculatorForm">
+            <label for="number1">Angka 1:</label>
+            <input type="number" id="number1" name="number1"><br>
+            <label for="number2">Angka 2:</label>
+            <input type="number" id="number2" name="number2"><br>
+            <label for="operation">Operasi:</label>
+            <select id="operation" name="operation">
+                <option value="add">Penambahan (+)</option>
+                <option value="subtract">Pengurangan (-)</option>
+                <option value="multiply">Perkalian (*)</option>
+                <option value="divide">Pembagian (/)</option>
+            </select><br>
+            <input type="submit" value="Hitung">
+        </form>
+        <div id="result">
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
